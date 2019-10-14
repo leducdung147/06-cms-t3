@@ -413,7 +413,6 @@ class WP_List_Table {
 			$views[ $class ] = "\t<li class='$class'>$view";
 		}
 		echo implode( " |</li>\n", $views ) . "</li>\n";
-		echo('<a href="https://google.com">HELLO! WHAT IS YOUR NAME?</a>');
 		echo '</ul>';
 	}
 
